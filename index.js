@@ -10,4 +10,4 @@ const io = require('socket.io')(server, {
 
 app.get("/", (req, res) => res.send("Okey"))
 
-server.listen(3000, "0.0.0.0", () => console.log("Server started")
+server.listen(3000, "0.0.0.0", () => console.log("Server started"))
